@@ -1,4 +1,11 @@
 {
+  "ts-node": {
+    "files": true,
+   // "transpileOnly": true,
+    "compilerOptions": {
+      "module": "commonjs",
+    }
+  },
   "compilerOptions": {
     "declaration": true,
     "importHelpers": true,
